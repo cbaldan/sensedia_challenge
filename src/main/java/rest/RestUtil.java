@@ -20,7 +20,7 @@ public class RestUtil {
 				.contentType(ContentType.JSON).post("https://graph.facebook.com/v2.12/me/feed");
 
 		postId = resp.jsonPath().getString("id");
-		
+
 		LOGGER.info("postId = " + postId);
 
 		return postId;
