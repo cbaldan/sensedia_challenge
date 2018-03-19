@@ -13,7 +13,7 @@ import util.TestUtil;
 public class FacebookPostTest extends FrameworkBase {
 
 	@Test
-	public void authorizeApp() {
+	public void facebookPostChallenge() {
 		// Random String needed because Facebook doesn't allow same text to be
 		// posted multiple times
 		final String postMessage = "Hello world!\nRandom String: " + System.currentTimeMillis();
